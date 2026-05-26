@@ -1,0 +1,25 @@
+name: modtriage
+version: 1.0.0
+description: >
+  ModTriage is a real-time mod queue dashboard and triage tool.
+  Moderators open a pinned dashboard post and get a live view of their
+  queue with smart priority sorting, one-tap actions, co-mod presence,
+  and a full action audit log — all without leaving Reddit.
+
+permissions:
+  - redditAPI
+  - kvStore
+  - realtime
+  - scheduler
+
+postTypes:
+  - name: ModTriage Dashboard
+    height: tall
+
+menuItems:
+  - label: "📋 Open ModTriage Dashboard"
+    location: subreddit
+    forUserType: moderator
+
+schedulerJobs:
+  - name: hourly_digest

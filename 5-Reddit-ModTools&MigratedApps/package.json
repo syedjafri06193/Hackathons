@@ -1,0 +1,17 @@
+{
+  "name": "modtriage",
+  "version": "1.0.0",
+  "description": "A real-time mod queue dashboard and triage tool built on Devvit",
+  "license": "MIT",
+  "scripts": {
+    "build": "devvit build",
+    "dev": "devvit dev",
+    "upload": "devvit upload"
+  },
+  "dependencies": {
+    "@devvit/public-api": "^0.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
