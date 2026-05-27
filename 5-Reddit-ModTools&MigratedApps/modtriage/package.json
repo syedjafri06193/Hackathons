@@ -1,0 +1,19 @@
+{
+  "name": "modtriage-em8063",
+  "version": "0.0.0",
+  "description": "A real-time mod queue dashboard and triage tool built on Devvit",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "devvit build",
+    "dev": "devvit dev",
+    "upload": "devvit upload"
+  },
+  "dependencies": {
+    "@devvit/public-api": "^0.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "type": "module",
+  "private": true
+}
